@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Guia Toronto</string>
+    <string name="url">www.guiatoronto.com</string>
+    <string name="protocol">http://</string>
+    <string name="no_internet">Sem conexão com a internet.</string>
+    <string name="retry">Retentar</string>
+</resources>
