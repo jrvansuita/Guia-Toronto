@@ -105,6 +105,7 @@ public class Main extends AppCompatActivity {
         webView.getSettings().setJavaScriptEnabled(true);
 
         progressBar.setProgress(0);
+        swipe.setScrollableView(webView);
         swipe.setColorSchemeResources(R.color.colorPrimaryDark, R.color.colorAccent);
     }
 

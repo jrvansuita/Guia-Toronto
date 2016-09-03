@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <toronto.guia.SwipeToRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:background="@android:color/white"
     android:id="@+id/swipe"
-    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
 
-    <FrameLayout android:id="@+id/content"
+    <FrameLayout
+        android:id="@+id/content"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <ImageView
-            android:scaleType="centerInside"
-            android:padding="20dp"
-            android:src="@mipmap/banner"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:padding="20dp"
+            android:scaleType="centerInside"
+            android:src="@mipmap/banner" />
 
-        <WebView xmlns:tools="http://schemas.android.com/tools"
+        <WebView
             android:id="@+id/web_view"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:visibility="gone"
-            tools:context="toronto.guia.Main" />
+            android:visibility="gone" />
 
         <ProgressBar
             android:id="@+id/progress_bar"
